@@ -1,1 +1,1 @@
-This is the repository for the first alpha-blog app
+This is the repository for the first app. You can watch it in production at www.alpha-blog-miko.herokuapp.com
