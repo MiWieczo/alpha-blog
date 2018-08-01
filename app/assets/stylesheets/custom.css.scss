@@ -6,14 +6,14 @@ $navbar-default-bg: black;
 #logo {
   fload: left;
   font-size: 1.7em;
-  color: #fff;
+  color: #ffe39e;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #ffd05b;
   text-decoration: none;
 }
 
@@ -21,18 +21,41 @@ $navbar-default-bg: black;
   text-align: center;
 }
 
+.navbar-default {
+  background-color: #2d394c;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffe39e;
+}
+
 .jumbotron {
-  background-image: asset-url("IDOM_Nuclear_Services_ITER.jpg");
+  background-image: asset-url("park_guell.jpg");
   background-size: cover;
   height: 550px;
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #2d394c;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
+}
+
+.jumbotron a {
+  background-color: #2d394c;
+  border-color: #ffd05b;
+  transition: background-color 0.5s, border-color 0.5s;
+}
+
+.jumbotron a:hover {
+  background-color: #ffbd4c;
+  border-color: orange;
 }
 
 .btn-xlarge {
